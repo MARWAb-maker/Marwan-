@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع استضافة الألعاب</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>مرحبًا بك في موقع الألعاب</h1>
+        <p>اختر لعبة للبدء في اللعب</p>
+    </header>
+
+    <main>
+        <section id="games">
+            <h2>الألعاب المتاحة</h2>
+            <button onclick="startGame('game1')">لعبة 1</button>
+            <button onclick="startGame('game2')">لعبة 2</button>
+        </section>
+
+        <section id="game-area">
+            <h2>العبة ستظهر هنا</h2>
+            <canvas id="gameCanvas"></canvas>
+        </section>
+    </main>
+
+    <script src="game.js"></script>
+</body>
+</html>

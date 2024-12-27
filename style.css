@@ -1,0 +1,44 @@
+/* تنسيق عام للموقع */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+#games button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#games button:hover {
+    background-color: #005f73;
+}
+
+#game-area {
+    margin-top: 20px;
+}
+
+canvas {
+    border: 2px solid #000;
+    width: 100%;
+    height: 400px;
+    background-color: #eee;
+}
